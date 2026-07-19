@@ -1,8 +1,7 @@
 export const belyaev_aleksandr = {
     name: "Беляев Александр",
+    summary: "",
     cycles: {
-        "Фантастика": [
-            { name: "Продавец воздуха", pages: 1, genre: "Научная фантастика", rate: 5 }
-        ]
+        "Произведения": [{ name: "Продавец воздуха", pages: 0, genre: "Фантастика", rate: 0, plot: "" }]
     }
 };
