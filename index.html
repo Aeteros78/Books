@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Tracker</title>
+    <!-- Подключаем ваш CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Подключаем Chart.js для графиков -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- SIDEBAR: Левая панель -->
+        <aside class="sidebar">
+            <div class="sidebar-title">Меню</div>
+            
+            <!-- Кнопка возврата ко всем карточкам (всегда сверху) -->
+            <div class="menu-item btn-all" onclick="showAllCards()">Все категории</div>
+            
+            <!-- Контейнер для динамических категорий (сюда JS вставит кнопки Аниме, Фильмы и т.д.) -->
+            <div id="sidebar-categories"></div>
+        </aside>
+
+        <!-- MAIN CONTENT: Центральная часть -->
+        <main class="main-content">
+            
+            <!-- VIEW 1: Сетка карточек (показывается по умолчанию) -->
+            <div id="cards-view">
+                <div class="cards-grid" id="cards-grid">
+                    <!-- Сюда JS вставит карточки -->
+                </div>
+            </div>
+
+            <!-- VIEW 2: Таблица с деталями (скрыта по умолчанию) -->
+            <div id="table-view" class="hidden">
+                <button class="menu-item" onclick="showAllCards()" style="margin-bottom: 10px;">← Назад</button>
+                <h2 id="table-title" style="margin-top: 0;">Заголовок</h2>
+                <div class="table-scroll-wrapper">
+                    <div class="table-container">
+                        <table class="styled-table">
+                            <thead>
+                                <tr>
+                                    <th>Название</th>
+                                    <th>Эп/Серии</th>
+                                    <th>Длит. (мин)</th>
+                                    <th>Всего (мин)</th>
+                                    <th>Всего (час)</th>
+                                    <th>Рейтинг</th>
+                                    <th>Описание</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-body">
+                                <!-- Сюда JS вставит строки таблицы -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- STATS SIDEBAR: Правая панель -->
+        <aside class="stats-sidebar">
+            <div class="stats-card total">
+                <h3>Общее время</h3>
+                <div id="total-time-all">0ч. 0м.</div>
+            </div>
+
+            <div class="stats-card">
+                <h3>Статистика по категориям</h3>
+                <div id="stats-list">
+                    <!-- Сюда JS вставит статистику -->
+                </div>
+            </div>
+
+            <div class="stats-card">
+                <div class="chart-controls">
+                    <button onclick="updateChart('hours')">Часы</button>
+                    <button onclick="updateChart('days')">Дни</button>
+                    <button onclick="updateChart('years')">Годы</button>
+                </div>
+                <canvas id="statsChart"></canvas>
+            </div>
+        </aside>
+    </div>
+
+    <!-- FOOTER: Панель достижений (внизу экрана) -->
+    <footer class="achievements-footer">
+        <div class="achievements-header" onclick="toggleAchievements()">
+            <span class="achievements-title">🏆 ДОСТИЖЕНИЯ</span>
+            <span class="ach-arrow">▼</span>
+        </div>
+        <div class="achievements-content">
+            <div id="achievements-container">
+                <!-- Сюда JS вставит все секции ачивок -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL: Окно описания сюжета -->
+    <div id="modal" class="modal" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <h2 id="modal-title" style="margin-top: 0;">Описание</h2>
+            <p id="modal-text"></p>
+            <button class="close-btn" onclick="closeModal()">Закрыть</button>
+        </div>
+    </div>
+
+    <!-- ПОДКЛЮЧЕНИЕ СКРИПТА (ОБЯЗАТЕЛЬНО type="module") -->
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
