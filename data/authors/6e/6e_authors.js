@@ -1,3 +1,5 @@
+// data/authors/6e/6e_authors.js
+
 import { evgenidis_jeffrey } from './evgenidis_jeffrey.js';
 import { evsey_history } from './evsey_history.js';
 import { elinek_elfriede } from './elinek_elfriede.js';
