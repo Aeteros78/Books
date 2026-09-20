@@ -3,9 +3,33 @@ export const hesse_hermann = {
     summary: "",
     cycles: {
         "Произведения": [
-            { name: "Игра в бисер", pages: 0, genre: "Классика", rate: 0, plot: "" },
-            { name: "Сиддхартха", pages: 0, genre: "Философская проза", rate: 0, plot: "" },
-            { name: "Степной волк", pages: 0, genre: "Классика", rate: 0, plot: "" }
+            { 
+                name: "Игра в бисер", 
+                pages: 0, 
+                genre: "Классика", 
+                rate: 0, 
+                plot: "Тут напиши сюжет...", 
+                dateFinished: "YYYY-MM-DD", 
+                sessions: [ { date: "YYYY-MM-DD", activity: 1 } ] 
+            },
+            { 
+                name: "Сиддхартха", 
+                pages: 0, 
+                genre: "Философская проза", 
+                rate: 0, 
+                plot: "Тут напиши сюжет...", 
+                dateFinished: "YYYY-MM-DD", 
+                sessions: [ { date: "YYYY-MM-DD", activity: 1 } ] 
+            },
+            { 
+                name: "Степной волк", 
+                pages: 0, 
+                genre: "Классика", 
+                rate: 0, 
+                plot: "Тут напиши сюжет...", 
+                dateFinished: "YYYY-MM-DD", 
+                sessions: [ { date: "YYYY-MM-DD", activity: 1 } ] 
+            }
         ]
     }
 };

@@ -2,6 +2,16 @@ export const grof_stanislav = {
     name: "Гроф Станислав",
     summary: "",
     cycles: {
-        "Произведения": [{ name: "За пределами мозга", pages: 0, genre: "Психология", rate: 0, plot: "" }]
+        "Произведения": [
+            { 
+                name: "За пределами мозга", 
+                pages: 0, 
+                genre: "Психология", 
+                rate: 0, 
+                plot: "Тут напиши сюжет...", 
+                dateFinished: "YYYY-MM-DD", 
+                sessions: [ { date: "YYYY-MM-DD", activity: 1 } ] 
+            }
+        ]
     }
 };

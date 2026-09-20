@@ -3,8 +3,24 @@ export const gruen_sarah = {
     summary: "",
     cycles: {
         "Произведения": [
-            { name: "Воды слонам", pages: 0, genre: "Проза", rate: 0, plot: "" },
-            { name: "Уроки верховой езды", pages: 0, genre: "Проза", rate: 0, plot: "" }
+            { 
+                name: "Воды слонам", 
+                pages: 0, 
+                genre: "Проза", 
+                rate: 0, 
+                plot: "Тут напиши сюжет...", 
+                dateFinished: "YYYY-MM-DD", 
+                sessions: [ { date: "YYYY-MM-DD", activity: 1 } ] 
+            },
+            { 
+                name: "Уроки верховой езды", 
+                pages: 0, 
+                genre: "Проза", 
+                rate: 0, 
+                plot: "Тут напиши сюжет...", 
+                dateFinished: "YYYY-MM-DD", 
+                sessions: [ { date: "YYYY-MM-DD", activity: 1 } ] 
+            }
         ]
     }
 };
