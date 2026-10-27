@@ -1,135 +1,1162 @@
-// data/authors/2b/2b_authors.js
+// data/authors/2b_authors.js
 
-// 1. Импорты всех авторов из этой же папки
-import { bazhov_pavel } from './bazhov_pavel.js';
-import { bakingem_markus } from './bakingem_markus.js';
-import { bakli_christopher } from './bakli_christopher.js';
-import { bakman_fredrik } from './bakman_fredrik.js';
-import { balzak_onore } from './balzak_onore.js';
-import { barbery_muriel } from './barbery_muriel.js';
-import { barden_phil } from './barden_phil.js';
-import { barker_clive } from './barker_clive.js';
-import { barkley_linwood } from './barkley_linwood.js';
-import { berger_pat } from './berger_pat.js';
-import { barnes_julian } from './barnes_julian.js';
-import { baricco_alessandro } from './baricco_alessandro.js';
-import { bach_richard } from './bach_richard.js';
-import { bauer_joseph } from './bauer_joseph.js';
-import { becgueder_frederic } from './becgueder_frederic.js';
-import { beity_paul } from './beity_paul.js';
-import { beckett_samuel } from './beckett_samuel.js';
-import { belyaev_aleksandr } from './belyaev_aleksandr.js';
-import { banks_ian } from './banks_ian.js';
-import { beowulf } from './beowulf.js';
-import { burges_anton } from './burges_anton.js';
-import { bern_ronda } from './bern_ronda.js';
-import { bern_eric } from './bern_eric.js';
-import { berns_david } from './berns_david.js';
-import { bernier_louis } from './bernier_louis.js';
-import { burnett_francis } from './burnett_francis.js';
-import { bester_a } from './bester_a.js';
-import { schlink_bernd } from './schlink_bernd.js';
-import { blyton_enid } from './blyton_enid.js';
-import { blank_steve } from './blank_steve.js';
-import { blontier_pierre } from './blontier_pierre.js';
-import { blackman_malory } from './blackman_malory.js';
-import { blackmore_richard } from './blackmore_richard.js';
-import { boyle_coragessan } from './boyle_coragessan.js';
-import { boyne_john } from './boyne_john.js';
-import { boccaccio_giovanni } from './boccaccio_giovanni.js';
-import { baldacci_david } from './baldacci_david.js';
-import { bono_edward } from './bono_edward.js';
-import { borisov_anton } from './borisov_anton.js';
-import { bornstein_david } from './bornstein_david.js';
-import { bowles_paul } from './bowles_paul.js';
-import { bosch_richard } from './bosch_richard.js';
-import { boethius } from './boethius.js';
-import { bryson_bill } from './bryson_bill.js';
-import { brown_dan } from './brown_dan.js';
-import { bradbury_ray } from './bradbury_ray.js';
-import { brodsky } from './brodsky.js';
-import { bronte_emily } from './bronte_emily.js';
-import { bronte_charlotte } from './bronte_charlotte.js';
-import { brooks_terry } from './brooks_terry.js';
-import { bradley_marion } from './bradley_marion.js';
-import { branson_richard } from './branson_richard.js';
-import { bukowski_charles } from './bukowski_charles.js';
-import { bulgakov_mikhail } from './bulgakov_mikhail.js';
-import { bujold_lois } from './bujold_lois.js';
-import { bunin_ivan } from './bunin_ivan.js';
-import { buskets_blanca } from './buskets_blanca.js';
-import { bhagavad_gita } from './bhagavad_gita.js';
-import { bjork_samuel } from './bjork_samuel.js';
-import { buyken_john } from './buyken_john.js';
-import { beikis_kirsten } from './beikis_kirsten.js';
-import { bacon } from './bacon.js';
-import { banks_ian_2 } from './banks_ian_2.js';
-
-// 2. Сборка всех в один объект по ключу "б"
 export const authors_2b = {
-    "б": {
-        "Бажов Павел": bazhov_pavel.cycles,
-        "Бакингем Маркус": bakingem_markus.cycles,
-        "Бакли Кристофер": bakli_christopher.cycles,
-        "Бакман Фредрик": bakman_fredrik.cycles,
-        "Бальзак Оноре": balzak_onore.cycles,
-        "Барбери Мюриель": barbery_muriel.cycles,
-        "Барден Фил": barden_phil.cycles,
-        "Баркер Клайв": barker_clive.cycles,
-        "Баркли Линвуд": barkley_linwood.cycles,
-        "Баргер Пэт": berger_pat.cycles,
-        "Барнс Джулиан": barnes_julian.cycles,
-        "Барикко Алессандро": baricco_alessandro.cycles,
-        "Бах Ричард": bach_richard.cycles,
-        "Бауэр Джозеф": bauer_joseph.cycles,
-        "Бегбедер Фредерик": becgueder_frederic.cycles,
-        "Бейти Пол": beity_paul.cycles,
-        "Беккет Сэмюэл": beckett_samuel.cycles,
-        "Беляев Александр": belyaev_aleksandr.cycles,
-        "Бэнкс Иэн": banks_ian.cycles,
-        "Беовульф": beowulf.cycles,
-        "Бёрджесс Энтон": burges_anton.cycles,
-        "Берн Ронда": bern_ronda.cycles,
-        "Берн Эрик": bern_eric.cycles,
-        "Бернс Дэвид": berns_david.cycles,
-        "Берньер Луи": bernier_louis.cycles,
-        "Бернетт Фрэнсис": burnett_francis.cycles,
-        "Бестер А": bester_a.cycles,
-        "Шлинк Бернхард": schlink_bernd.cycles,
-        "Блайтон Энид": blyton_enid.cycles,
-        "Бланк Стив": blank_steve.cycles,
-        "Блонтер Питер": blontier_pierre.cycles,
-        "Блэкмен Мэлори": blackman_malory.cycles,
-        "Блэкмор Ричард": blackmore_richard.cycles,
-        "Бойл Корагессан": boyle_coragessan.cycles,
-        "Бойн Джон": boyne_john.cycles,
-        "Боккача Джованни": boccaccio_giovanni.cycles,
-        "Болдаччи Дэвид": baldacci_david.cycles,
-        "Боно Эдвард": bono_edward.cycles,
-        "Борисов Антон": borisov_anton.cycles,
-        "Борнштейн Дэвид": bornstein_david.cycles,
-        "Боуэлс Пол": bowles_paul.cycles,
-        "Бош Ричард": bosch_richard.cycles,
-        "Боэций": boethius.cycles,
-        "Брайсон Билл": bryson_bill.cycles,
-        "Браун Дэн": brown_dan.cycles,
-        "Бредбери Рэй": bradbury_ray.cycles,
-        "Бродский": brodsky.cycles,
-        "Бронте Эмили": bronte_emily.cycles,
-        "Бронте Шарлотта": bronte_charlotte.cycles,
-        "Брукс Терри": brooks_terry.cycles,
-        "Брэдли Мэрион Зиммер": bradley_marion.cycles,
-        "Брэнсон Ричард": branson_richard.cycles,
-        "Буковский Чарльз": bukowski_charles.cycles,
-        "Булгаков Михаил": bulgakov_mikhail.cycles,
-        "Буджолд Лоис МакМастер": bujold_lois.cycles,
-        "Бунин Иван": bunin_ivan.cycles,
-        "Бускетс Бланка": buskets_blanca.cycles,
-        "Бхагават гита": bhagavad_gita.cycles,
-        "Бьорк Самюэль": bjork_samuel.cycles,
-        "Бьюкен Джон": buyken_john.cycles,
-        "Бэйкис Кирстен": beikis_kirsten.cycles,
-        "Бэкон": bacon.cycles,
-        "Бэнкс Иэн (2)": banks_ian_2.cycles
+    "Б": {
+        "Байетт Антония": {
+            "Произведения": [
+                { 
+                    name: "Обладать", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бажов Павел": {
+            "Произведения": [
+                { 
+                    name: "Уральские сказы", 
+                    pages: null, 
+                    genre: "Сказки", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бакли Кристофер": {
+            "Произведения": [
+                { 
+                    name: "Здесь Курят", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бакман Фредрик": {
+            "Произведения": [
+                { 
+                    name: "Три новеллы", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бальзак Оноре": {
+            "Произведения": [
+                { 
+                    name: "Евгения Гранде", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "Кузина Бетта", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "Шагреневая кожа", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Барбери Мюриель": {
+            "Произведения": [
+                { 
+                    name: "Элегантность ежика", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Баркер Клайв": {
+            "Произведения": [
+                { 
+                    name: "Проклятая игра", 
+                    pages: null, 
+                    genre: "Фэнтези", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Баркли Линвуд": {
+            "Произведения": [
+                { 
+                    name: "Не обещая ничего", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Баргер Пэт": {
+            "Произведения": [
+                { 
+                    name: "Регенерация", 
+                    pages: null, 
+                    genre: "Фантастика", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Барнс Джулиан": {
+            "Произведения": [
+                { 
+                    name: "Любовь и так далее", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "Шум времени", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Барикко Алессандро": {
+            "Произведения": [
+                { 
+                    name: "1900", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бах Ричард": {
+            "Произведения": [
+                { 
+                    name: "Чайка по имени Джонатан Ливингстон", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бауэр Джозеф": {
+            "Произведения": [
+                { 
+                    name: "От размещения ресурсов к стратегии", 
+                    pages: null, 
+                    genre: "Бизнес", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бегбедер Фредерик": {
+            "Произведения": [
+                { 
+                    name: "Любовь живёт три года", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бейти Пол": {
+            "Произведения": [
+                { 
+                    name: "Продажная тварь", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Беккет Сэмюэл": {
+            "Произведения": [
+                { 
+                    name: "Моллой", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "Мэлон умирает", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Беляев Александр": {
+            "Произведения": [
+                { 
+                    name: "Продавец воздуха", 
+                    pages: null, 
+                    genre: "Фантастика", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бенкс Иэн": {
+            "Культура": [
+                { 
+                    name: "Осиная фабрика", 
+                    pages: null, 
+                    genre: "Фантастика", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Беовульф": {
+            "Произведения": [
+                { 
+                    name: "Беовульф", 
+                    pages: null, 
+                    genre: "Поэма", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бёрджесс Энтон": {
+            "Произведения": [
+                { 
+                    name: "Заводной апельсин", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Берн Ронда": {
+            "Произведения": [
+                { 
+                    name: "Тайна", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Берн Эрик": {
+            "Произведения": [
+                { 
+                    name: "Игры, в которые играют люди", 
+                    pages: null, 
+                    genre: "Психология", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бернс Дэвид": {
+            "Произведения": [
+                { 
+                    name: "Хорошее самочувствие", 
+                    pages: null, 
+                    genre: "Психология", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Берньер Луи": {
+            "Произведения": [
+                { 
+                    name: "Мандолина капитана Корелли", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бернетт Фрэнсис": {
+            "Произведения": [
+                { 
+                    name: "Таинственный сад", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бестер А": {
+            "Произведения": [
+                { 
+                    name: "Тигр! Тигр!", 
+                    pages: null, 
+                    genre: "Фантастика", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Шлинк Берхард": {
+            "Произведения": [
+                { 
+                    name: "Чтец", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Блайтон Энид": {
+            "Произведения": [
+                { 
+                    name: "Тайна волшебного дерева", 
+                    pages: null, 
+                    genre: "Детектив", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бланк Стив": {
+            "Произведения": [
+                { 
+                    name: "Четыре шага к озарению", 
+                    pages: null, 
+                    genre: "Бизнес", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Блонтер Питер": {
+            "Произведения": [
+                { 
+                    name: "Нарушитель", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Блэкмен Мэлори": {
+            "Произведения": [
+                { 
+                    name: "Крестики-нолики", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Блэкмор Ричард": {
+            "Произведения": [
+                { 
+                    name: "Лорна Дун", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бойл Корагессан": {
+            "Произведения": [
+                { 
+                    name: "Лепешечный занавес", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бойн Джон": {
+            "Произведения": [
+                { 
+                    name: "Мальчик на вершине горы", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Боккача Джованни": {
+            "Произведения": [
+                { 
+                    name: "Декамерон", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Болдаччи Дэвид": {
+            "Произведения": [
+                { 
+                    name: "Падшие", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Боно Эдвард": {
+            "Произведения": [
+                { 
+                    name: "Латеральное мышление", 
+                    pages: null, 
+                    genre: "Психология", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Борисов Антон": {
+            "Произведения": [
+                { 
+                    name: "Кандидат на выбраковку", 
+                    pages: null, 
+                    genre: "Фантастика", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Борнштейн Дэвид": {
+            "Произведения": [
+                { 
+                    name: "Как изменить мир", 
+                    pages: null, 
+                    genre: "Бизнес", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Боуэлс Пол": {
+            "Произведения": [
+                { 
+                    name: "Навес неба", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бош Ричард": {
+            "Произведения": [
+                { 
+                    name: "В ночной сезон", 
+                    pages: null, 
+                    genre: "Детектив", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Боэций": {
+            "Произведения": [
+                { 
+                    name: "Об утешении философией", 
+                    pages: null, 
+                    genre: "Философия", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Брайсон Билл": {
+            "Произведения": [
+                { 
+                    name: "Прогулка в лесу", 
+                    pages: null, 
+                    genre: "Мемуары", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Браун Дэн": {
+            "Произведения": [
+                { 
+                    name: "Цифровая крепость", 
+                    pages: null, 
+                    genre: "Триллер", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "Ангелы и демоны", 
+                    pages: null, 
+                    genre: "Триллер", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "Код да Винчи", 
+                    pages: null, 
+                    genre: "Триллер", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "Инферно", 
+                    pages: null, 
+                    genre: "Триллер", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "Точка обмана", 
+                    pages: null, 
+                    genre: "Триллер", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "Утраченый символ", 
+                    pages: null, 
+                    genre: "Триллер", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "Происхождение", 
+                    pages: null, 
+                    genre: "Триллер", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бредбери Рэй": {
+            "Произведения": [
+                { 
+                    name: "451 градус по Фаренгейту", 
+                    pages: null, 
+                    genre: "Фантастика", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "Вино из одуванчиков", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "И грянул гром", 
+                    pages: null, 
+                    genre: "Фантастика", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бродский Иосиф": {
+            "Произведения": [
+                { 
+                    name: "Набережная неисцелимых", 
+                    pages: null, 
+                    genre: "Поэзия", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бронте Эмили": {
+            "Произведения": [
+                { 
+                    name: "Грозовой перевал", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бронте Шарлотта": {
+            "Произведения": [
+                { 
+                    name: "Джейн Эйр", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Брукс Терри": {
+            "Меч Шаннары": [
+                { 
+                    name: "Меч Шаннары", 
+                    pages: null, 
+                    genre: "Фэнтези", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Брэдли Мэрион Зиммер": {
+            "Произведения": [
+                { 
+                    name: "Авалон", 
+                    pages: null, 
+                    genre: "Фантастика", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Брэнсон Ричард": {
+            "Произведения": [
+                { 
+                    name: "Теряя невинность", 
+                    pages: null, 
+                    genre: "Мемуары", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Буковский Чарльз": {
+            "Произведения": [
+                { 
+                    name: "Женщины", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "Хлеб с ветчиной", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Булгаков Михаил": {
+            "Произведения": [
+                { 
+                    name: "Белая гвардия", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "Записки юного врача", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                },
+                { 
+                    name: "Мастер и Маргарита", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Буджолд Лоис МакМастер": {
+            "Произведения": [
+                { 
+                    name: "Барбара", 
+                    pages: null, 
+                    genre: "Фантастика", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бунин Иван": {
+            "Произведения": [
+                { 
+                    name: "Темные аллеи", 
+                    pages: null, 
+                    genre: "Рассказы", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бускетс Бланка": {
+            "Произведения": [
+                { 
+                    name: "Свитер", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бхагават гита": {
+            "Произведения": [
+                { 
+                    name: "Бхагават гита", 
+                    pages: null, 
+                    genre: "Религия", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бьорк Самюэль": {
+            "Произведения": [
+                { 
+                    name: "Мальчик в свете фар", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бьюкен Джон": {
+            "Произведения": [
+                { 
+                    name: "39 ступеней", 
+                    pages: null, 
+                    genre: "Триллер", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бэйкис Кирстен": {
+            "Произведения": [
+                { 
+                    name: "Жизнь собак-чудовищ", 
+                    pages: null, 
+                    genre: "Роман", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        },
+        "Бэкон Фрэнсис": {
+            "Произведения": [
+                { 
+                    name: "Новый Органон", 
+                    pages: null, 
+                    genre: "Философия", 
+                    rate: null, 
+                    summary: "",
+                    plot: "",
+                    dateFinished: null, 
+                    sessions: { start: null, end: null },
+                    daysToRead: 0,
+                    status: "В планах"
+                }
+            ]
+        }
     }
 };
