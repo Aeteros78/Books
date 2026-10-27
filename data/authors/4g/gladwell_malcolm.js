@@ -3,8 +3,24 @@ export const gladwell_malcolm = {
     summary: "",
     cycles: {
         "Произведения": [
-            { name: "Гении и аутсайдеры", pages: 0, genre: "Научпоп", rate: 0, plot: "" },
-            { name: "Озарение", pages: 0, genre: "Научпоп", rate: 0, plot: "" }
+            { 
+                name: "Гении и аутсайдеры", 
+                pages: 0, 
+                genre: "Научпоп", 
+                rate: 0, 
+                plot: "Тут напиши сюжет...", 
+                dateFinished: "YYYY-MM-DD", 
+                sessions: [ { date: "YYYY-MM-DD", activity: 1 } ] 
+            },
+            { 
+                name: "Озарение", 
+                pages: 0, 
+                genre: "Научпоп", 
+                rate: 0, 
+                plot: "Тут напиши сюжет...", 
+                dateFinished: "YYYY-MM-DD", 
+                sessions: [ { date: "YYYY-MM-DD", activity: 1 } ] 
+            }
         ]
     }
 };

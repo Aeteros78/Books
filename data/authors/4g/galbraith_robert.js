@@ -1,7 +1,17 @@
-export const galbraith_robert = {
-    name: "Гэлбрейт Роберт",
+export const galsworthy_john = {
+    name: "Голсуори Джон",
     summary: "",
     cycles: {
-        "Произведения": [{ name: "На службе зла", pages: 0, genre: "Детектив", rate: 0, plot: "" }]
+        "Произведения": [
+            { 
+                name: "Сага о Форсайтах", 
+                pages: 0, 
+                genre: "Классика", 
+                rate: 0, 
+                plot: "Тут напиши сюжет...", 
+                dateFinished: "YYYY-MM-DD", 
+                sessions: [ { date: "YYYY-MM-DD", activity: 1 } ] 
+            }
+        ]
     }
 };
